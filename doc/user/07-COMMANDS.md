@@ -29,6 +29,9 @@ The libf3d provides a few commands, many related to manipulating libf3d (options
 
 `cycle_animation`: A specific command to cycle `scene.animation.index` option using model information, No argument.
 
+`cycle_backface_type`: A specific command to cycle between backface culling modes:
+`default` (model-specified), `visible` (always show backfaces), and `hidden` (always hide backfaces / enable culling). No argument.
+
 `cycle_coloring field/array/component`: A specific command to manipulate scivis options using model information.
 Supports `field`, `array` or `component` arguments, see [documentation](04-INTERACTIONS.md#cycling-coloring).
 eg: `cycle_coloring array`.

@@ -45,6 +45,7 @@ Other options can be toggled or cycled directly by pressing the following hotkey
 
 - <kbd>W</kbd>: [cycle animations](05-ANIMATIONS.md#cycling-animations).
 - <kbd>B</kbd>: display of the scalar bar, only when coloring and not using direct scalars.
+- <kbd>Shift</kbd>+<kbd>B</kbd>: cycle backface culling type.
 - <kbd>V</kbd>: volume rendering, forces coloring.
 - <kbd>I</kbd>: opacity function inversion during volume rendering.
 - <kbd>O</kbd>: cycle point sprites type.
